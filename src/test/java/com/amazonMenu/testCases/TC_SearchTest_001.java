@@ -12,7 +12,7 @@ import com.amazonMenu.pageObjects.SearchPage;
 
 public class TC_SearchTest_001 extends BaseClass {
   @Test
-  public void searchMenu()   
+  public void searchMenu() throws InterruptedException   
   {
     SearchPage lp =new SearchPage(driver);
 	System.out.println("Entered in the class TC_Searchtest_001\n");
@@ -81,7 +81,7 @@ public class TC_SearchTest_001 extends BaseClass {
  //-------------MUSIC BAND NAME IS LISTED ---//  
 
        lp.MusicBand();
-       System.out.println("\nMusic band name is printed sucessfully"); 
+      
   
   }
 
